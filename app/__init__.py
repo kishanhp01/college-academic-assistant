@@ -1,0 +1,1 @@
+"""College academic assistant application."""

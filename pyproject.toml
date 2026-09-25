@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "college-academic-assistant"
+version = "0.1.0"
+description = "A document-grounded academic assistant and study planner"
+requires-python = ">=3.11"
+dependencies = [
+  "langchain>=0.3,<2",
+  "langchain-community>=0.3,<1",
+  "langchain-text-splitters>=0.3,<2",
+  "langchain-huggingface>=0.1,<2",
+  "langgraph>=0.2,<2",
+  "sentence-transformers>=3,<6",
+  "faiss-cpu>=1.8",
+  "pypdf>=5,<7",
+  "streamlit>=1.40,<2",
+  "pydantic-settings>=2,<3",
+  "langchain-openai>=0.3,<2",
+  "langchain-ollama>=0.3,<2",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
