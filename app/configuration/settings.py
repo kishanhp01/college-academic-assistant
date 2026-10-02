@@ -9,6 +9,8 @@ class Settings(BaseSettings):
     llm_model: str = "gpt-4o-mini"
     llm_api_key: str = ""
     llm_base_url: str = ""
+    huggingface_api_key: str = ""
+    huggingface_model: str = "Qwen/Qwen2.5-1.5B-Instruct"
     embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
     documents_dir: Path = Path("data/documents")
     index_dir: Path = Path("data/index")

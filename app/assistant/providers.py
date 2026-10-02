@@ -25,4 +25,20 @@ def create_chat_model() -> BaseChatModel:
         if settings.llm_base_url:
             options["base_url"] = settings.llm_base_url
         return ChatOllama(**options)
-    raise ValueError(f"Unsupported LLM_PROVIDER '{settings.llm_provider}'. Choose openai, openai_compatible, or ollama.")
+    if provider == "huggingface":
+        if not settings.huggingface_api_key:
+            raise ValueError("Set HUGGINGFACE_API_KEY in .env before using the Hugging Face provider.")
+        from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
+
+        endpoint = HuggingFaceEndpoint(
+            repo_id=settings.huggingface_model,
+            task="text-generation",
+            huggingfacehub_api_token=settings.huggingface_api_key,
+            max_new_tokens=512,
+            do_sample=False,
+        )
+        return ChatHuggingFace(llm=endpoint)
+    raise ValueError(
+        f"Unsupported LLM_PROVIDER '{settings.llm_provider}'. "
+        "Choose openai, openai_compatible, ollama, or huggingface."
+    )
