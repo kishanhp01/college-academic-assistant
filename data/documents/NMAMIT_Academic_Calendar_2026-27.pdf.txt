@@ -1,0 +1,26 @@
+Text transcription for retrieval, visually checked against the supplied two-page NMAMIT Academic Calendar 2026-27 PDF. The PDF is image-only, so PyPDF cannot extract searchable text.
+
+The official calendar is for the I and II Semesters of the B.Tech program at NMAM Institute of Technology, Nitte, for Academic Year 2026-27. Notification date: 25 June 2026.
+
+Semester I and Semester II academic calendar:
+
+Commencement of classes: Semester I, 29 June 2026 (Monday); Semester II, 4 January 2027 (Monday).
+Last date of admission: Semester I, 19 August 2026 (Wednesday); Semester II, not listed.
+Last date of admission with penal fee: Semester I, 20 August 2026 (Thursday); Semester II, not listed.
+Submission of admitted candidates to the University for admission approval: Semester I, 3 September 2026 (Thursday); Semester II, not listed.
+Approval of admissions by the University and allotment of USN: Semester I, 18 September 2026 (Friday); Semester II, not listed.
+Mid Semester Examination (MSE) - I: Semester I, 17 September 2026 to 19 September 2026; Semester II, 15 February 2027 to 17 February 2027.
+Last day for dropping the course: Semester I, 9 October 2026 (Friday); Semester II, 2 March 2027 (Monday).
+Mid Semester Examination (MSE) - II: Semester I, 2 November 2026 to 4 November 2026; Semester II, 5 April 2027 to 7 April 2027.
+Last date for withdrawal from course: Semester I, 14 November 2026 (Saturday); Semester II, 14 April 2027 (Wednesday).
+Additional Mid Semester Examination (MSE): Semester I, 16 November 2026 to 18 November 2026; Semester II, 19 April 2027 to 21 April 2027.
+Filling application for University Examination: Semester I, 21 November 2026 (Saturday); Semester II, 23 April 2027 (Friday).
+End of classes: Semester I, 30 November 2026 (Monday); Semester II, 30 April 2027 (Friday).
+Submission of attendance and Continuous Internal Evaluation (CIE): 7 days before commencement of examinations.
+Approval of list of candidates appearing for the examination: 7 days before commencement of examinations.
+Commencement of the University Examination - Practical: Semester I, 1st week of December 2026; Semester II, 2nd week of May 2027.
+Commencement of the University Examination - Theory: Semester I, 2nd week of December 2026; Semester II, 3rd week of May 2027.
+Declaration of results: Semester I, 3rd week of January 2027; Semester II, 3rd week of June 2027.
+Commencement of next higher semester classes: 4 January 2027 (Monday).
+
+Calendar note: If a notified date is a holiday, the activity shall fall on the next working day.

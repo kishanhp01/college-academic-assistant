@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="api-base-url" content="">
+  <title>Sign in | Campus Compass</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script type="module" src="./js/login.js"></script>
+</head>
+<body class="auth-page">
+  <main class="auth-layout">
+    <section class="brand-panel" aria-label="Campus Compass introduction">
+      <a class="brand" href="./login.html"><span class="brand-mark">C</span> Campus Compass</a>
+      <div class="brand-copy"><p class="eyebrow">Your academic companion</p><h1>Make your next semester feel more manageable.</h1><p>Ask questions, find guidance in your college documents, and build a study plan that fits your schedule.</p></div>
+      <p class="brand-foot">Thoughtful support for the work ahead.</p>
+    </section>
+    <section class="auth-card" aria-labelledby="page-title">
+      <div class="mobile-brand"><span class="brand-mark">C</span> Campus Compass</div>
+      <p class="eyebrow">Welcome back</p><h2 id="page-title">Sign in to your account</h2>
+      <p class="muted">Continue your academic work where you left off.</p>
+      <form id="login-form" class="form-stack" novalidate>
+        <label for="email">College email</label><input id="email" name="email" type="email" autocomplete="email" required>
+        <label for="password">Password</label><input id="password" name="password" type="password" autocomplete="current-password" required>
+        <p id="form-error" class="form-message error" role="alert" hidden></p>
+        <button class="button primary full" type="submit">Sign in</button>
+      </form>
+      <p class="auth-switch">New here? <a href="./register.html">Create an account</a></p>
+    </section>
+  </main>
+</body>
+</html>
