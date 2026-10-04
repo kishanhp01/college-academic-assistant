@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>AI Academic Assistant</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            College Academic Assistant
+        </div>
+
+        <div class="nav-links">
+
+            <a href="dashboard.html">
+                Dashboard
+            </a>
+
+            <a href="chatbot.html">
+                AI Chat
+            </a>
+
+            <a href="study_planner.html">
+                Study Planner
+            </a>
+
+            <a href="login.html">
+                Logout
+            </a>
+
+        </div>
+
+    </nav>
+
+
+    <main class="chat-container">
+
+        <h1>AI Academic Assistant</h1>
+
+        <p>
+            Ask questions about your college and academic subjects.
+        </p>
+
+
+        <div id="chatBox" class="chat-box">
+
+            <div class="ai-message">
+
+                Hello! I am your AI Academic Assistant.
+                How can I help you?
+
+            </div>
+
+        </div>
+
+
+        <div class="chat-input">
+
+            <input
+                type="text"
+                id="message"
+                placeholder="Type your question..."
+            >
+
+            <button onclick="sendMessage()">
+                Send
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <script src="js/chatbot.js"></script>
+
+</body>
+
+</html>

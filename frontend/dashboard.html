@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>College Academic Assistant - Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            College Academic Assistant
+        </div>
+
+        <div class="nav-links">
+
+            <a href="dashboard.html">Dashboard</a>
+
+            <a href="chatbot.html">AI Chat</a>
+
+            <a href="study_planner.html">Study Planner</a>
+
+            <a href="login.html" class="logout">Logout</a>
+
+        </div>
+
+    </nav>
+
+
+    <!-- Main Dashboard -->
+
+    <main class="dashboard">
+
+        <section class="welcome-section">
+
+            <h1>Welcome, Student!</h1>
+
+            <p>
+                Your personalized college academic assistant
+            </p>
+
+        </section>
+
+
+        <!-- Dashboard Cards -->
+
+        <section class="dashboard-cards">
+
+            <!-- AI Chat -->
+
+            <div class="dashboard-card">
+
+                <h2>AI Academic Assistant</h2>
+
+                <p>
+                    Ask questions about your subjects,
+                    college documents, academic information
+                    and study topics.
+                </p>
+
+                <a href="chatbot.html">
+                    <button>Open AI Chat</button>
+                </a>
+
+            </div>
+
+
+            <!-- Study Planner -->
+
+            <div class="dashboard-card">
+
+                <h2>Study Planner</h2>
+
+                <p>
+                    Create a personalized study plan
+                    based on your subjects, exams and
+                    available study time.
+                </p>
+
+                <a href="study_planner.html">
+                    <button>Open Study Planner</button>
+                </a>
+
+            </div>
+
+
+            <!-- Progress -->
+
+            <div class="dashboard-card">
+
+                <h2>My Progress</h2>
+
+                <p>
+                    Track your completed study tasks
+                    and monitor your academic progress.
+                </p>
+
+                <div class="progress-container">
+
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+
+                    <p>40% Completed</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Today's Tasks -->
+
+        <section class="tasks-section">
+
+            <h2>Today's Study Tasks</h2>
+
+            <div class="task">
+
+                <input type="checkbox" id="task1">
+
+                <label for="task1">
+                    DBMS - Normalization
+                </label>
+
+            </div>
+
+
+            <div class="task">
+
+                <input type="checkbox" id="task2">
+
+                <label for="task2">
+                    Computer Networks - TCP/IP
+                </label>
+
+            </div>
+
+
+            <div class="task">
+
+                <input type="checkbox" id="task3">
+
+                <label for="task3">
+                    Theory of Computation - CFG
+                </label>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>

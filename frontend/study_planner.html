@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Study Planner</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            College Academic Assistant
+        </div>
+
+        <div class="nav-links">
+
+            <a href="dashboard.html">Dashboard</a>
+
+            <a href="chatbot.html">AI Chat</a>
+
+            <a href="study_planner.html">Study Planner</a>
+
+            <a href="login.html">Logout</a>
+
+        </div>
+
+    </nav>
+
+
+    <!-- Study Planner -->
+
+    <main class="planner-container">
+
+        <h1>Personalized Study Planner</h1>
+
+        <p>
+            Create a study plan based on your subjects
+            and available study time.
+        </p>
+
+
+        <!-- Form -->
+
+        <div class="planner-form">
+
+            <label for="subject">
+                Subject
+            </label>
+
+            <input
+                type="text"
+                id="subject"
+                placeholder="Example: DBMS"
+            >
+
+
+            <label for="topic">
+                Topic
+            </label>
+
+            <input
+                type="text"
+                id="topic"
+                placeholder="Example: Normalization"
+            >
+
+
+            <label for="examDate">
+                Exam Date
+            </label>
+
+            <input
+                type="date"
+                id="examDate"
+            >
+
+
+            <label for="difficulty">
+                Difficulty
+            </label>
+
+            <select id="difficulty">
+
+                <option value="Low">
+                    Low
+                </option>
+
+                <option value="Medium">
+                    Medium
+                </option>
+
+                <option value="High">
+                    High
+                </option>
+
+            </select>
+
+
+            <label for="duration">
+                Study Duration (hours)
+            </label>
+
+            <input
+                type="number"
+                id="duration"
+                min="1"
+                placeholder="Example: 2"
+            >
+
+
+            <button
+                type="button"
+                onclick="generatePlan()">
+
+                Generate Study Plan
+
+            </button>
+
+        </div>
+
+
+        <!-- Study Plan Output -->
+
+        <div class="plan-section">
+
+            <h2>Your Study Plan</h2>
+
+            <div id="studyPlan">
+
+                <!-- Generated tasks will appear here -->
+
+            </div>
+
+        </div>
+
+
+        <!-- Progress -->
+
+        <div class="progress-container">
+
+            <h2>Study Progress</h2>
+
+            <div class="progress-bar">
+
+                <div
+                    id="plannerProgress"
+                    class="progress">
+                </div>
+
+            </div>
+
+            <p id="progressText">
+                0% Completed
+            </p>
+
+        </div>
+
+    </main>
+
+
+    <!-- IMPORTANT: JavaScript file -->
+
+    <script src="js/planner.js"></script>
+
+</body>
+
+</html>

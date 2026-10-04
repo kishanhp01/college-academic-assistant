@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+    color: #222;
+}
+
+/* Login */
+
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    width: 400px;
+    background: white;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #666;
+}
+
+.login-box label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    background: #1d4ed8;
+    color: white;
+}
+
+.login-box button:hover {
+    background: #1e40af;
+}
+
+.register-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register-text a {
+    text-decoration: none;
+    color: #1d4ed8;
+}
+
+#loginMessage {
+    text-align: center;
+    margin-top: 15px;
+}
+/* Chatbot */
+
+.chat-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.chat-box {
+    height: 450px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    overflow-y: auto;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.ai-message,
+.student-message {
+    padding: 12px 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    max-width: 75%;
+}
+
+.ai-message {
+    background: #e5e7eb;
+    margin-right: auto;
+}
+
+.student-message {
+    background: #1d4ed8;
+    color: white;
+    margin-left: auto;
+}
+
+.chat-input {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.chat-input button {
+    padding: 13px 25px;
+    border: none;
+    border-radius: 6px;
+    background: #1d4ed8;
+    color: white;
+    cursor: pointer;
+}
+/* Study Planner */
+
+.planner-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.planner-form {
+    background: white;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.planner-form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.planner-form input,
+.planner-form select {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.planner-form button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    background: #1d4ed8;
+    color: white;
+    cursor: pointer;
+}
+
+.plan-section {
+    margin-top: 30px;
+}
+
+.plan-task {
+    background: white;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.plan-task button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #1d4ed8;
+    color: white;
+    cursor: pointer;
+}
+/* Navigation Bar */
+
+.navbar {
+    width: 100%;
+    background: #1d4ed8;
+    color: white;
+    padding: 18px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}

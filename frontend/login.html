@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Academic Assistant - Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="login-container">
+
+        <div class="login-box">
+
+            <h1>College Academic Assistant</h1>
+            <p class="subtitle">Student Login</p>
+
+            <form id="loginForm">
+
+                <label for="username">Student ID / Email</label>
+                <input
+                    type="text"
+                    id="username"
+                    placeholder="Enter your student ID or email"
+                    required
+                >
+
+                <label for="password">Password</label>
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Enter your password"
+                    required
+                >
+
+                <button type="submit">Login</button>
+
+            </form>
+
+            <p id="loginMessage"></p>
+
+            <p class="register-text">
+                Don't have an account?
+                <a href="register.html">Register here</a>
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="js/login.js"></script>
+
+</body>
+</html>
